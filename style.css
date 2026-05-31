@@ -642,6 +642,18 @@ footer {
         font-size: 2.5rem;
     }
 
+    .btn-hero {
+        font-size: 1rem;
+        padding: 12px 18px;
+        gap: 8px;
+        white-space: nowrap;
+    }
+
+    .btn-hero .phone-icon {
+        width: 18px;
+        height: 18px;
+    }
+
     .section-header h2 {
         font-size: 2rem;
     }
@@ -711,5 +723,11 @@ footer {
     .hero-content h1 {
         font-size: 2.1rem;
         margin-bottom: 16px;
+    }
+
+    .btn-hero {
+        font-size: 0.92rem;
+        padding: 10px 14px;
+        border-radius: 10px;
     }
 }
