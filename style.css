@@ -173,15 +173,15 @@ h3 {
 }
 
 .btn-primary {
-    background-color: var(--accent);
+    background-color: #ca7125;
     color: var(--white);
-    box-shadow: 0 4px 14px 0 rgba(212, 168, 75, 0.39);
+    box-shadow: 0 4px 14px 0 rgba(202, 113, 37, 0.39);
 }
 
 .btn-primary:hover {
-    background-color: var(--accent-hover);
+    background-color: #bb6821;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(212, 168, 75, 0.45);
+    box-shadow: 0 6px 20px rgba(202, 113, 37, 0.45);
 }
 
 /* Icons */
@@ -1215,18 +1215,36 @@ footer {
 
     .landing-title-break {
         margin-top: 0.16em;
+        white-space: nowrap;
     }
 
     .landing-label {
-        width: 100%;
-        justify-content: center;
-        text-align: center;
+        width: auto;
+        justify-content: flex-start;
+        text-align: left;
+        white-space: nowrap;
+        font-size: 0.63rem;
+        letter-spacing: 0.02em;
+        padding: 8px 10px;
     }
 
     .landing-hero h1 {
-        max-width: 11ch;
+        max-width: none;
         margin-top: 26px;
-        font-size: clamp(1.92rem, 7.6vw, 2.36rem);
+        font-size: 1.72rem;
+        line-height: 0.98;
+    }
+
+    .landing-lead {
+        max-width: 29ch;
+        font-size: 0.92rem;
+        line-height: 1.45;
+    }
+
+    .landing-note {
+        max-width: 28ch;
+        font-size: 0.88rem;
+        line-height: 1.4;
     }
 
     .landing-callout,
@@ -1275,6 +1293,10 @@ footer {
     .landing-callout-copy span,
     .landing-final-cta-button .landing-callout-copy span {
         font-size: 1.45rem;
+    }
+
+    .team-gallery .section-header h2 {
+        line-height: 1.02;
     }
 
     .landing-process {
